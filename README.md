@@ -31,12 +31,14 @@ Stuff
   - [ ] Use the Block Model from scratch in at least one instance to make sure I really have a grasp on the concept ([resource 1](https://www.w3schools.com/css/css_boxmodel.asp), [resource 2](https://css-tricks.com/box-sizing/))
   - [ ] Use the Block Model, and other CSS-from-scratch methods, in further instances if I find any preferable to Bootstrap's cookie-cutter execution
 - [ ] Write all content from the project prompt outside my GitHub (e.g., use MS Word to write the “About Me” section, my list of projects with descriptions, my hobbies, etc.)
-- [ ] If necessary, use placeholder content while achieving the below objectives
+- [ ] If necessary, use placeholder content while prioritizing __functional__ objectives
+
+### Triage
   - Priority 1: Fulfilling all functional objectives to demonstrate programming proficiency
-  - Priority 2: Fulfilling all thematic objectives (i.e., complete content) to demonstrate accomplishment of goals
-  - Priority 3: Fulfilling all aesthetic objectives (i.e., good design) to demonstrate reliable adherence to vision
-  - Priority 4: Any additional aesthetic goals beyond requirements (e.g. additional design elements)
-  - Priority 5: Any additional functional goals beyond requirements (e.g. incorporation of JS)
+  - Priority 2: Fulfilling all thematic objectives (i.e., complete content) to demonstrate ability to deliver a product to a client
+  - Priority 3: Fulfilling all aesthetic objectives (i.e., good design) to demonstrate reliable adherence to a client's vision
+  - Priority 4: Any additional aesthetic goals beyond requirements, such as extra design elements to add personality
+  - Priority 5: Any additional functional goals beyond requirements, such as incorporation of JS features
 
 ### Project Requirements
 - [ ] Create a portfolio webpage using HTML and CSS, which will later act as the landing page for my programming portfolio
