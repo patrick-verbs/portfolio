@@ -48,7 +48,7 @@ Stuff
   - [ ] an “About Me” section
   - [ ] my background (education, job experience, or why I decided to take a class on programming, etc.)
   - [ ] my current interests, hobbies, and skills
-  - [ ] a <pre>gh-pages</pre> branch so that your site may be viewed on GitHub Pages at <pre>patrick-verbs.github.io/portfolio</pre>
+  - [ ] a __gh-pages__ branch so that your site may be viewed on GitHub Pages at __patrick-verbs.github.io/portfolio__
 
 
 ### Underlying Objectives
