@@ -145,11 +145,11 @@ Copyright © 2021 Patrick Lee
 
 ### <a name="Objectives"></a>Underlying Objectives
 - [ ] The following HTML tags are all used:
-  - [ ] p
+  - [x] p
   - [x] h
-  - [ ] ul
+  - [x] ul
   - [ ] ol
-  - [ ] li
+  - [x] li
   - [ ] em
   - [ ] strong
   - [x] a
