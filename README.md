@@ -25,6 +25,23 @@ Stuff
 - [x] HTML code established with correct use of headers
 - [ ] Research portfolio styles for inspiration (i.e., web surf)
 - [ ] Research portfolio design best practices
+  - [ ] Icons for LinkedIn, Twitter, and GH links (prob center at bottom of page, separate solid bg color, with copyright notice for self)
+  - [ ] "Portfolio" in all-caps text graphic, likely centered, h1 priority
+  - [ ] "Patrick Lee" in all-caps text graphic, likely top-left, h2/h3 priority
+  - [ ] Text "tabs" (really, just clickable text graphics) for various sections:
+    - [ ] "Work"
+      - [ ] "Code"
+      - [ ] "Art"
+      - [ ] "Writing"
+        - [ ] "Fiction"
+        - [ ] "Exposition"
+        - [ ] "Editing"
+    - [ ] "About Me"
+    - [ ] "WIP"
+    - [ ] "Contact Me"
+    - [ ] Not something I've seen on portfolios, but a "Legal" tab (undecided on just including in "Contact" -- current preference is for separate tab)
+  - [ ] ___Tabs collapse into hamburger menu at low-res??___
+  - [ ] Tabs link to text on same page (index.html) -- single-page design, can scroll instead to see same info
 - [ ] Brain-storm/flow-chart the page layout
 - [ ] Block out the layout
   - [ ] Use Bootstrap to save time
