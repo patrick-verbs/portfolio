@@ -1,6 +1,6 @@
 * {
-  background-color: white;
-  color: black;
+  background-color: black;
+  color: white;
 }
 
 div.banner-header {
@@ -12,6 +12,7 @@ div.banner-header {
   margin: auto 0 0;
   border: 0px;
   padding: 0px;
+  z-index: 5;
 }
 
 div.myname {
@@ -41,26 +42,37 @@ div h3 {
 
 div.banner-footer {
   width: 100vw;
-  background-color: black;
+  height: 15vh;
+  min-height: 100px;
   position: fixed;
   bottom: 0;
   left: 0;
   border: 0px;
-  padding: 0px;
+  padding: 10px;
+  z-index: -5;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 div.social {
-  background-color: inherit;
-  color: white;
-  height: 15vh;
-  max-height: 675px;/* 125% of the LinkedIn icon's height */
-  margin: auto;
-}
-
-div.social img {
+  height: 90%;
   background-color: black;
-  height: 80%;
-  max-height: 540px;/* Size of the official LinkedIn brand icon */
-  padding: 25px;
+  color: white;
+  max-height: 675px;/* 125% of the LinkedIn icon's height */
+  display: flex;
+  justify-content: center;
 }
 
+div.social a {
+  display: block;
+}
+
+div.social a img {
+  background-color: inherit;
+  height: 90%;
+  max-height: 540px;/* Size of the official LinkedIn brand icon */
+  padding-left: 20px;
+  padding-right: 20px;
+}
