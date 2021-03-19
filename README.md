@@ -1,7 +1,7 @@
 # Portfolio
-#### Patrick Lee || _[See it on GitHub Pages](https://patrick-verbs.github.io/portfolio)_
+#### Patrick Lee || _[See this portfolio on GitHub Pages](https://patrick-verbs.github.io/portfolio)_
 
-Stuff
+
 
 # About
 ##### This is a portfolio for Patrick Lee.
@@ -23,8 +23,7 @@ Stuff
 - [x] Establish repo & file structure
 - [x] Establish and continually update README file to plan, track, execute, and showcase progress on this project
 - [x] HTML code established with correct use of headers
-- [ ] Research portfolio styles for inspiration (i.e., web surf)
-- [ ] Research portfolio design best practices
+- [x] Research portfolio styles for inspiration (i.e., web surf)
   - [ ] Icons for LinkedIn, Twitter, and GH links (prob center at bottom of page, separate solid bg color, with copyright notice for self)
   - [ ] "Portfolio" in all-caps text graphic, likely centered, h1 priority
   - [ ] "Patrick Lee" in all-caps text graphic, likely top-left, h2/h3 priority
@@ -41,7 +40,10 @@ Stuff
     - [ ] "Contact Me"
     - [ ] Not something I've seen on portfolios, but a "Legal" tab (undecided on just including in "Contact" -- current preference is for separate tab)
   - [ ] ___Tabs collapse into hamburger menu at low-res??___
+    - [ ] Bootstrap for breakpoints: https://v4-alpha.getbootstrap.com/layout/responsive-utilities/
+    - [ ] Bootstrap hamburger menu, may require JS/jQuery: https://mdbootstrap.com/docs/b4/jquery/navigation/hamburger-menu/
   - [ ] Tabs link to text on same page (index.html) -- single-page design, can scroll instead to see same info
+- [ ] Research portfolio design best practices
 - [ ] Brain-storm/flow-chart the page layout
 - [ ] Block out the layout
   - [ ] Use Bootstrap to save time
