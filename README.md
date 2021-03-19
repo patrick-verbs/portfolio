@@ -1,21 +1,40 @@
-# Portfolio
+# <a name="Portfolio"></a>Portfolio
 #### Patrick Lee | _[See this portfolio on GitHub Pages](https://patrick-verbs.github.io/portfolio)_
-
-<detail>
-<summary>Contents</summary>
+<details><summary><strong>Contents</strong></summary>
 <ul>
-<li><a href="#About">About</a></li>
-- [Description](#Description)
-- [Installation](#Installation)
-- [Known Bugs](#Bugs)
-- [Progress](#Progress)
+  <li><a href="#About">About</a></li>
+  <ul>
+    <li><a href="#Description">Description</a></li>
+    <li><a href="#Install">Installation & Setup</a></li>
+    <li><a href="Technologies">Technologies Used</a></li>
+    <li><a href="#Bugs">Known Bugs</a></li>
+    <li><a href="#History">Progress</a></li>
+    <ul>
+      <li><a href="#Strategy">Strategy</a></li>
+      <li><a href="#Triage">Triage</a></li>
+      <li><a href="#Project">Project Requirements</a></li>
+      <li><a href="#Objectives">Underlying Objectives</a></li>
+    </ul>
+  </ul>
+  <li><a href="#License">License</a></li>
+  <li><a href="#Contact">Contact</a></li>
 </ul>
-</detail>
+</details>
 
 # <a name="About"></a>About
-##### This is a portfolio for Patrick Lee.
+###### _[Portfolio](https://github.com/patrick-verbs/portfolio) > About_
+This is a portfolio for Patrick Lee.
 
-## Technologies Used
+## <a name="Description"></a>Description
+This portfolio (specifically, its landing page) was initially created as an assignment. The goal was to demonstrate proficiency in basic HTML, CSS, Markdown, and Git(Hub) workflows, with a clear communication of ideas both under the hood (i.e., code and file structure) and in its final, public-facing presentation.
+
+## <a name="Install"></a>Installation & Setup
+This project's repository and contained source is available under the MIT License. If you want to have a look under the hood or use any and all components, have at it!
+
+If you have a GitHub account, you can Clone or Fork this repository either by:
+- Navigating to [my portfolio's repository](https://github.com/patrick-verbs/portfolio) and 
+
+## <a name="Technologies"></a>Technologies Used
 - _OS:_ __Windows 10__
 - _Services:_ __GitHub__ | __Microsoft OneDrive__ (redundant backup)
 - _Command line interface:_ __Git Bash__
@@ -25,19 +44,10 @@
 - _References:_ Coursework from ___[Learn How To Program](https://www.learnhowtoprogram.com/)___ | ___[w3schools.com](https://www.w3schools.com/)___'s HTML & CSS reference | Mozilla's ___[MDN Web Docs](https://developer.mozilla.org/en-US/)___ | various articles provided by __[CSS-Tricks](https://css-tricks.com/)__
 - _Music to keep me relatively sane:_ ["Japanese Winter Ambient with Flute Sounds Background"](https://www.youtube.com/watch?v=1npZVIPwi1w) | 
 
-## Description
-##### This portfolio (specifically, its landing page) was initially created as an assignment. The goal was to demonstrate proficiency in basic HTML, CSS, Markdown, and Git(Hub) workflows, with a clear communication of ideas both under the hood (i.e., code and file structure) and in its final, public-facing presentation.
+## <a name="Bugs"></a>Known Bugs
 
-## Installation
-##### This project's repository and contained source is available under the MIT License. If you want to have a look under the hood or use any and all components, have at it!
-
-If you have a GitHub account, you can Clone or Fork this repository either by:
-- Navigating to [my portfolio's repository](https://github.com/patrick-verbs/portfolio) and 
-
-## Known Bugs
-
-## Progress
-### Strategy
+## <a name="History"></a>Progress
+### <a name="Strategy"></a>Strategy
 - [x] Establish repo & file structure
 - [x] Establish and continually update README file to plan, track, execute, and showcase progress on this project
 - [x] HTML code established with correct use of headers
@@ -75,14 +85,14 @@ If you have a GitHub account, you can Clone or Fork this repository either by:
 - [ ] Write all content from the project prompt outside my GitHub (e.g., use MS Word to write the “About Me” section, my list of projects with descriptions, my hobbies, etc.)
 - [ ] If necessary, use placeholder content while prioritizing __functional__ objectives
 
-### Triage
+### <a name="Triage"></a>Triage
   - Priority 1: Fulfilling all functional objectives to demonstrate programming proficiency
   - Priority 2: Fulfilling all thematic objectives (i.e., complete content) to demonstrate ability to deliver a product to a client
   - Priority 3: Fulfilling all aesthetic objectives (i.e., good design) to demonstrate reliable adherence to a client's vision
   - Priority 4: Any additional aesthetic goals beyond requirements, such as extra design elements to add personality
   - Priority 5: Any additional functional goals beyond requirements, such as incorporation of JS features
 
-### Project Requirements
+### <a name="Project"></a>Project Requirements
 - [ ] Create a portfolio webpage using HTML and CSS, which will later act as the landing page for my programming portfolio
 - [ ] Include:
   - [ ] my name
@@ -95,7 +105,7 @@ If you have a GitHub account, you can Clone or Fork this repository either by:
   - [ ] a __gh-pages__ branch so that your site may be viewed on GitHub Pages at __patrick-verbs.github.io/portfolio__
 
 
-### Underlying Objectives
+### <a name="Objectives"></a>Underlying Objectives
 - [ ] The following HTML tags are all used:
   - [ ] p
   - [ ] h
@@ -128,7 +138,7 @@ If you have a GitHub account, you can Clone or Fork this repository either by:
 - [ ] Project demonstrates an understanding of this week's concepts
 - [x] Can discuss all code with an instructor using the correct terminology
 
-# License
+# <a name="License"></a>License
 <details>
 <summary><a href="https://opensource.org/licenses/MIT"><strong>MIT</strong></a></summary>
 <pre>
@@ -158,5 +168,5 @@ SOFTWARE.
 
 Copyright © 2021 Patrick Lee
 
-# Contact
-#### Patrick Lee patricklee1138@live.com
+# <a name="Contact"></a>Contact
+#### Patrick Lee | patricklee1138@live.com
