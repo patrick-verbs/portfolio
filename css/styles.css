@@ -1,14 +1,12 @@
-* {
-  background-color: black;
-  color: white;
-}
 
 div.container {
   float: left;
+  top: 400px;
 }
 
 div.banner-header {
   width: 100vw;
+  height: 4vw;
   background-color: black;
   position: fixed;
   top: 0;
@@ -41,10 +39,14 @@ div.splash-portfolio {
   margin: auto 0 0;
   border: 0px;
   padding: 0px;
-  background-color: blue;
+  background-color: rgb(49, 49, 49);
   z-index: 10;
   display: flex;
   justify-content: center;
+}
+
+div.splash-portfolio img {
+  padding-top: 4vw;
 }
 
 div.splash-section {
@@ -53,11 +55,12 @@ div.splash-section {
   left: 0;
   margin: auto 0 0;
   padding: 0px;
-  background-color: red;
+  background-color: white;
 }
 
 div h1 {
   width: 50%;
+  padding-top: 5vw;
   font-size: 10vw;
   font-family: sans-serif;
   font-weight: 500;
