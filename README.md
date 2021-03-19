@@ -91,8 +91,8 @@ Copyright © 2021 Patrick Lee
 - [x] HTML code established with correct use of headers
 - [x] Research portfolio styles for inspiration (i.e., web surf)
   - [ ] Icons for LinkedIn, Twitter, and GH links (prob center at bottom of page, separate solid bg color, with copyright notice for self)
-  - [ ] "Portfolio" in all-caps text graphic, likely centered, h1 priority
-  - [ ] "Patrick Lee" in all-caps text graphic, likely top-left, h2/h3 priority
+  - [x] "Portfolio" in all-caps text, likely centered, h1 priority
+  - [x] "Patrick Lee" in all-caps text-graphic, likely top-left, h2/h3 priority
   - [ ] Text "tabs" (really, just clickable text graphics) for various sections:
     - [ ] "Work"
       - [ ] "Programming"
@@ -133,7 +133,7 @@ Copyright © 2021 Patrick Lee
 ### <a name="Project"></a>Project Requirements
 - [ ] Create a portfolio webpage using HTML and CSS, which will later act as the landing page for my programming portfolio
 - [ ] Include:
-  - [ ] my name
+  - [x] my name
   - [ ] an image representing myself
   - [ ] a list of projects I have created with active links to their GitHub pages sites or GitHub repositories
     - [ ] for each, include a brief description of the project and what languages it uses
@@ -146,19 +146,19 @@ Copyright © 2021 Patrick Lee
 ### <a name="Objectives"></a>Underlying Objectives
 - [ ] The following HTML tags are all used:
   - [ ] p
-  - [ ] h
+  - [x] h
   - [ ] ul
   - [ ] ol
   - [ ] li
   - [ ] em
   - [ ] strong
-  - [ ] a
+  - [x] a
   - [x] img
   - [x] div
   - [ ] span
 - [ ] Project includes a custom-made stylesheet that uses:
-  - [ ] typography styles
-  - [ ] the box model (including margin, border, and padding)
+  - [x] typography styles
+  - [x] the box model (including margin, border, and padding)
   - [ ] floats
 - [ ] Code is clean, well-refactored, and easy-to-read
   - [ ] Correct indendation throughout

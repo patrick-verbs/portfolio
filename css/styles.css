@@ -30,15 +30,29 @@ div.myname img {
   width: 100%;
 }
 
-/* REMOVE THIS IF NOT USED!!!!! */
-div h3 {
+div.splash-portfolio {
+  width: 100vw;
+  height: 500px;
+  left: 0;
+  margin: auto 0 0;
+  border: 0px;
+  padding: 0px;
+  background-color: blue;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+}
+
+div h1 {
   width: 50%;
-  font-size: 5vw;
+  font-size: 10vw;
   font-family: sans-serif;
   font-weight: 500;
-  line-height: 2rem;
+  text-transform: uppercase;
+  background-color: transparent;
   color: white;
 }
+
 
 div.banner-footer {
   width: 100vw;
@@ -65,14 +79,8 @@ div.social {
   justify-content: center;
 }
 
-div.social a {
-  display: block;
-}
-
 div.social a img {
   background-color: inherit;
   height: 90%;
   max-height: 540px;/* Size of the official LinkedIn brand icon */
-  padding-left: 20px;
-  padding-right: 20px;
 }
