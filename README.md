@@ -17,7 +17,7 @@ Stuff
 
 # License
 <details>
-  <summary>[MIT](https://opensource.org/licenses/MIT)</summary>
+  <summary><a href="https://opensource.org/licenses/MIT">MIT</a></summary>
   <pre>
   MIT License
 
