@@ -2,9 +2,7 @@
 #### Patrick Lee | _[See this portfolio on GitHub Pages](https://patrick-verbs.github.io/portfolio)_
 
 <detail>
-<summary>
-
-</summary>
+<summary>Contents</summary>
 <ul>
 <li><a href="#About">About</a></li>
 - [Description](#Description)
