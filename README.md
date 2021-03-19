@@ -1,22 +1,42 @@
 # Portfolio
-#### Patrick Lee || _[See this portfolio on GitHub Pages](https://patrick-verbs.github.io/portfolio)_
+#### Patrick Lee | _[See this portfolio on GitHub Pages](https://patrick-verbs.github.io/portfolio)_
 
+<detail>
+<summary>
 
+</summary>
+<ul>
+<li><a href="#About">About</a></li>
+- [Description](#Description)
+- [Installation](#Installation)
+- [Known Bugs](#Bugs)
+- [Progress](#Progress)
+</ul>
+</detail>
 
-# About
+# <a name="About"></a>About
 ##### This is a portfolio for Patrick Lee.
 
 ## Technologies Used
 - _OS:_ __Windows 10__
-- _Services:_ __GitHub__ || __Microsoft OneDrive__ (redundant backup)
+- _Services:_ __GitHub__ | __Microsoft OneDrive__ (redundant backup)
 - _Command line interface:_ __Git Bash__
 - _Text editor:_ __Visual Studio Code__
-- _Programming languages:_ __HTML__ || __CSS__ || __Markdown__
+- _Programming languages:_ __HTML__ | __CSS__ | __Markdown__
 - _Browser:_ __Google Chrome__, with developer tools
-- _References:_ Coursework from ___[Learn How To Program](https://www.learnhowtoprogram.com/)___ || ___[w3schools.com](https://www.w3schools.com/)___'s HTML & CSS reference || Mozilla's ___[MDN Web Docs](https://developer.mozilla.org/en-US/)___ || various articles provided by __[CSS-Tricks](https://css-tricks.com/)__
+- _References:_ Coursework from ___[Learn How To Program](https://www.learnhowtoprogram.com/)___ | ___[w3schools.com](https://www.w3schools.com/)___'s HTML & CSS reference | Mozilla's ___[MDN Web Docs](https://developer.mozilla.org/en-US/)___ | various articles provided by __[CSS-Tricks](https://css-tricks.com/)__
+- _Music to keep me relatively sane:_ ["Japanese Winter Ambient with Flute Sounds Background"](https://www.youtube.com/watch?v=1npZVIPwi1w) | 
 
 ## Description
 ##### This portfolio (specifically, its landing page) was initially created as an assignment. The goal was to demonstrate proficiency in basic HTML, CSS, Markdown, and Git(Hub) workflows, with a clear communication of ideas both under the hood (i.e., code and file structure) and in its final, public-facing presentation.
+
+## Installation
+##### This project's repository and contained source is available under the MIT License. If you want to have a look under the hood or use any and all components, have at it!
+
+If you have a GitHub account, you can Clone or Fork this repository either by:
+- Navigating to [my portfolio's repository](https://github.com/patrick-verbs/portfolio) and 
+
+## Known Bugs
 
 ## Progress
 ### Strategy
@@ -29,7 +49,12 @@
   - [ ] "Patrick Lee" in all-caps text graphic, likely top-left, h2/h3 priority
   - [ ] Text "tabs" (really, just clickable text graphics) for various sections:
     - [ ] "Work"
-      - [ ] "Code"
+      - [ ] "Programming"
+        - [ ] MS Word macro for em dashes & extraneous spaces
+        - [ ] All repos made for Epicodus work
+        - [ ] SHA-2 file checker
+        - [ ] Timeline work
+        - [ ] Card game work
       - [ ] "Art"
       - [ ] "Writing"
         - [ ] "Fiction"
