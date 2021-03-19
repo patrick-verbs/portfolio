@@ -1,0 +1,26 @@
+
+* {
+  background-color: black;
+  color: white;
+}
+
+div.myname {
+  min-width: 128px;
+  max-width: 512px;
+  background-color: black;
+
+}
+
+div.myname img {
+  width: 100%;
+}
+
+/* REMOVE THIS IF NOT USED!!!!! */
+div h3 {
+  width: 50%;
+  font-size: 5vw;
+  font-family: sans-serif;
+  font-weight: 500;
+  line-height: 2rem;
+  color: white;
+}

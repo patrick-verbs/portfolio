@@ -6,18 +6,22 @@
   <ul>
     <li><a href="#Description">Description</a></li>
     <li><a href="#Install">Installation & Setup</a></li>
-    <li><a href="Technologies">Technologies Used</a></li>
+    <li><a href="#Technologies">Technologies Used</a></li>
     <li><a href="#Bugs">Known Bugs</a></li>
-    <li><a href="#History">Progress</a></li>
-    <ul>
-      <li><a href="#Strategy">Strategy</a></li>
-      <li><a href="#Triage">Triage</a></li>
-      <li><a href="#Project">Project Requirements</a></li>
-      <li><a href="#Objectives">Underlying Objectives</a></li>
-    </ul>
   </ul>
   <li><a href="#License">License</a></li>
   <li><a href="#Contact">Contact</a></li>
+  <li><a href="#History">History</a></li>
+    <ul>
+      <li><a href="#Progress">Progress on Assigned Project</a></li>
+      <ul>
+        <li><a href="#Strategy">Strategy</a></li>
+        <li><a href="#Triage">Triage</a></li>
+        <li><a href="#Project">Project Requirements</a></li>
+        <li><a href="#Objectives">Underlying Objectives</a></li>
+      </ul>
+    </ul>
+  </ul>
 </ul>
 </details>
 
@@ -46,7 +50,41 @@ If you have a GitHub account, you can Clone or Fork this repository either by:
 
 ## <a name="Bugs"></a>Known Bugs
 
-## <a name="History"></a>Progress
+# <a name="License"></a>License
+<details>
+<summary><a href="https://opensource.org/licenses/MIT"><strong>MIT</strong></a></summary>
+<pre>
+MIT License
+
+Copyright (c) 2021 Patrick Lee
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+</pre>
+</details>
+
+Copyright © 2021 Patrick Lee
+
+# <a name="Contact"></a>Contact
+#### Patrick Lee | patricklee1138@live.com
+
+# <a name="History"></a>History
+## <a name="Progress></a>Progress on Assigned Project
 ### <a name="Strategy"></a>Strategy
 - [x] Establish repo & file structure
 - [x] Establish and continually update README file to plan, track, execute, and showcase progress on this project
@@ -115,8 +153,8 @@ If you have a GitHub account, you can Clone or Fork this repository either by:
   - [ ] em
   - [ ] strong
   - [ ] a
-  - [ ] img
-  - [ ] div
+  - [x] img
+  - [x] div
   - [ ] span
 - [ ] Project includes a custom-made stylesheet that uses:
   - [ ] typography styles
@@ -137,36 +175,3 @@ If you have a GitHub account, you can Clone or Fork this repository either by:
 - [ ] Project is in a polished, portfolio-quality state
 - [ ] Project demonstrates an understanding of this week's concepts
 - [x] Can discuss all code with an instructor using the correct terminology
-
-# <a name="License"></a>License
-<details>
-<summary><a href="https://opensource.org/licenses/MIT"><strong>MIT</strong></a></summary>
-<pre>
-MIT License
-
-Copyright (c) 2021 Patrick Lee
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-</pre>
-</details>
-
-Copyright © 2021 Patrick Lee
-
-# <a name="Contact"></a>Contact
-#### Patrick Lee | patricklee1138@live.com
