@@ -1,4 +1,4 @@
-# <a name="Portfolio"></a>Portfolio
+# <a name="Portfolio"></a>Portfolio: Patrick Lee
 #### Patrick Lee | _[See this portfolio on GitHub Pages](https://patrick-verbs.github.io/portfolio)_
 <details><summary><strong>Contents</strong></summary>
 <ul>
@@ -190,7 +190,7 @@ Copyright © 2021 Patrick Lee
   - [ ] program setup instructions
   - [x] link to site on GitHub Pages
   - [x] copyright and license information
-- [ ] Site is successfully deployed to GitHub pages
+- [x] Site is successfully deployed to GitHub pages
 - [ ] Project is in a polished, portfolio-quality state
 - [x] Project demonstrates an understanding of this week's concepts
 - [x] Can discuss all code with an instructor using the correct terminology
