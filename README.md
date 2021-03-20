@@ -84,7 +84,7 @@ Copyright © 2021 Patrick Lee
 #### Patrick Lee | patricklee1138@live.com
 
 # <a name="History"></a>History
-## <a name="Progress></a>Progress on Assigned Project
+## <a name="Progress"></a>Progress on Assigned Project
 ### <a name="Strategy"></a>Strategy
 - [x] Establish repo & file structure
 - [x] Establish and continually update README file to plan, track, execute, and showcase progress on this project
@@ -108,7 +108,7 @@ Copyright © 2021 Patrick Lee
         - [ ] "Editing"
     - [ ] "About Me"
     - [ ] "WIP"
-    - [ ] "Contact Me"
+    - [ ] "Contact"
     - [ ] Not something I've seen on portfolios, but a "Legal" tab (undecided on just including in "Contact" -- current preference is for separate tab)
   - [ ] ___Tabs collapse into hamburger menu at low-res??___
     - [ ] Bootstrap for breakpoints: https://v4-alpha.getbootstrap.com/layout/responsive-utilities/
@@ -117,11 +117,11 @@ Copyright © 2021 Patrick Lee
 - [ ] Research portfolio design best practices
 - [ ] Brain-storm/flow-chart the page layout
 - [ ] Block out the layout
-  - [ ] Use Bootstrap to save time
+  - [x] Use Bootstrap to save time (...wound up not saving time)
   - [ ] Use the Block Model from scratch in at least one instance to make sure I really have a grasp on the concept ([resource 1](https://www.w3schools.com/css/css_boxmodel.asp), [resource 2](https://css-tricks.com/box-sizing/))
-  - [ ] Use the Block Model, and other CSS-from-scratch methods, in further instances if I find any preferable to Bootstrap's cookie-cutter execution
+  - [x] Use the Block Model, and other CSS-from-scratch methods, in further instances if I find any preferable to Bootstrap's cookie-cutter execution
 - [ ] Write all content from the project prompt outside my GitHub (e.g., use MS Word to write the “About Me” section, my list of projects with descriptions, my hobbies, etc.)
-- [ ] If necessary, use placeholder content while prioritizing __functional__ objectives
+- [x] If necessary, use placeholder content while prioritizing __functional__ objectives
 
 ### <a name="Triage"></a>Triage
   - Priority 1: Fulfilling all functional objectives to demonstrate programming proficiency
@@ -134,13 +134,13 @@ Copyright © 2021 Patrick Lee
 - [ ] Create a portfolio webpage using HTML and CSS, which will later act as the landing page for my programming portfolio
 - [ ] Include:
   - [x] my name
-  - [ ] an image representing myself
+  - [x] an image representing myself
   - [ ] a list of projects I have created with active links to their GitHub pages sites or GitHub repositories
     - [ ] for each, include a brief description of the project and what languages it uses
   - [ ] an “About Me” section
   - [ ] my background (education, job experience, or why I decided to take a class on programming, etc.)
   - [ ] my current interests, hobbies, and skills
-  - [ ] a __gh-pages__ branch so that your site may be viewed on GitHub Pages at __patrick-verbs.github.io/portfolio__
+  - [x] a __gh-pages__ branch so that your site may be viewed on GitHub Pages at __patrick-verbs.github.io/portfolio__
 
 
 ### <a name="Objectives"></a>Underlying Objectives
@@ -159,11 +159,11 @@ Copyright © 2021 Patrick Lee
 - [ ] Project includes a custom-made stylesheet that uses:
   - [x] typography styles
   - [x] the box model (including margin, border, and padding)
-  - [ ] floats
+  - [x] floats
 - [ ] Code is clean, well-refactored, and easy-to-read
-  - [ ] Correct indendation throughout
-  - [ ] Correct spacing throughout
-  - [ ] Only necessary comments and debugging tools throughout
+  - [x] Correct indendation throughout
+  - [x] Correct spacing throughout
+  - [x] Only necessary comments and debugging tools throughout
 - [ ] The project repo contains a README that includes:
   - [x] author name
   - [x] project or program name
@@ -173,5 +173,5 @@ Copyright © 2021 Patrick Lee
   - [x] copyright and license information
 - [ ] Site is successfully deployed to GitHub pages
 - [ ] Project is in a polished, portfolio-quality state
-- [ ] Project demonstrates an understanding of this week's concepts
+- [x] Project demonstrates an understanding of this week's concepts
 - [x] Can discuss all code with an instructor using the correct terminology
