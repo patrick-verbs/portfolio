@@ -30,6 +30,7 @@
 This is a portfolio for Patrick Lee.
 
 ## <a name="Description"></a>Description
+###### _[Portfolio](https://github.com/patrick-verbs/portfolio) > [About](#About) > Description_
 This portfolio (specifically, its landing page) was initially created as an assignment. The goal was to demonstrate proficiency in basic HTML, CSS, Markdown, and Git(Hub) workflows, with a clear communication of ideas both under the hood (i.e., code and file structure) and in its final, public-facing presentation.
 
 ## <a name="Install"></a>Installation & Setup
