@@ -40,13 +40,18 @@ If you have a GitHub account, you can Clone or Fork this repository either by:
 
 ## <a name="Technologies"></a>Technologies Used
 - _OS:_ __Windows 10__
-- _Services:_ __GitHub__ | __Microsoft OneDrive__ (redundant backup)
+- _Services:_ __GitHub__ | __Microsoft OneDrive__ (redundant backup) | __[DaFont.com](https://www.dafont.com/)__
+- _Assets:_
+  - Commissioned pixel-art portrait by __[Lauren Russo](http://rock-bomber.com/#portfolio)__
+  - __[Atomic Md](https://www.dafont.com/a-atomic-md.font)__ font by wep
+  - __LinkedIn__, __GitHub__, and __Twitter__ icons from their respective brand toolkits ([1](https://brand.linkedin.com/downloads), [2](https://github.com/logos), [3](https://about.twitter.com/en/who-we-are/brand-toolkit)), vector- or raster-edited for scale and color
 - _Command line interface:_ __Git Bash__
-- _Text editor:_ __Visual Studio Code__
-- _Programming languages:_ __HTML__ | __CSS__ | __Markdown__
+- _Text editor:_ __Visual Studio Code__ | __MS Word__ for notes and copy-writing
+- _Programming languages:_ __HTML__ | __Markdown__ | __CSS__ with __[Bootstrap 4.6](https://getbootstrap.com/docs/4.6/getting-started/introduction/)__
 - _Browser:_ __Google Chrome__, with developer tools
+- _Graphics editing:_ __Adobe Illustrator__ and __Photoshop__
 - _References:_ Coursework from ___[Learn How To Program](https://www.learnhowtoprogram.com/)___ | ___[w3schools.com](https://www.w3schools.com/)___'s HTML & CSS reference | Mozilla's ___[MDN Web Docs](https://developer.mozilla.org/en-US/)___ | various articles provided by __[CSS-Tricks](https://css-tricks.com/)__
-- _Music to keep me relatively sane:_ ["Japanese Winter Ambient with Flute Sounds Background"](https://www.youtube.com/watch?v=1npZVIPwi1w) | 
+- _Music to keep me relatively sane:_ ["Japanese Winter Ambient with Flute Sounds Background"](https://www.youtube.com/watch?v=1npZVIPwi1w)
 
 ## <a name="Bugs"></a>Known Bugs
 
