@@ -132,5 +132,22 @@ header .header-me {
 }
 
 header nav ul {
-  stuff;
+  margin: auto 0 0;
+}
+
+header nav ul li {
+  display: inline-block;
+  float: left;/* Unnecessary with "inline-block," but gets rid of the gap between links... */
+  list-style: none;/* Get rid of the ugly formatting from lists. */
+  padding: 0 10px;
+}
+
+header nav ul li a {
+  color: #f2f2f2;
+  font-family: 'Josefin Sans';
+  font-size: 16px;
+}
+
+header .header-samples {
+  display: none;/* Hides this link on the mobile version (low-res).
 }
