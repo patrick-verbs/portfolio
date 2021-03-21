@@ -101,6 +101,28 @@ input, select {
     vertical-align:middle;
 }
 
-/*****
-STYLES
-*****/
+/*********
+MY STYLING
+*********/
+
+* {
+  /* find code to remove hyperlink styling */
+}
+
+body {
+  background-color: #fff;
+}
+
+header {
+  background-color: #111;
+  width: 100%;
+  height: 100px;
+}
+
+header .header-me {
+  color: #f2f2f2;
+  font-family: 'Josefin Sans';
+  font-size: 24px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
