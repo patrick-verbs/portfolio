@@ -1,4 +1,4 @@
-# <a name="Portfolio"></a>Portfolio
+# <a name="Portfolio"></a>Portfolio: Patrick Lee
 #### Patrick Lee | _[See this portfolio on GitHub Pages](https://patrick-verbs.github.io/portfolio)_
 <details><summary><strong>Contents</strong></summary>
 <ul>
@@ -30,15 +30,18 @@
 This is a portfolio for Patrick Lee.
 
 ## <a name="Description"></a>Description
+###### _[Portfolio](https://github.com/patrick-verbs/portfolio) > [About](#About) > Description_
 This portfolio (specifically, its landing page) was initially created as an assignment. The goal was to demonstrate proficiency in basic HTML, CSS, Markdown, and Git(Hub) workflows, with a clear communication of ideas both under the hood (i.e., code and file structure) and in its final, public-facing presentation.
 
 ## <a name="Install"></a>Installation & Setup
+###### _[Portfolio](https://github.com/patrick-verbs/portfolio) > [About](#About) > Installation & Setup_
 This project's repository and contained source is available under the MIT License. If you want to have a look under the hood or use any and all components, have at it!
 
 If you have a GitHub account, you can Clone or Fork this repository either by:
 - Navigating to [my portfolio's repository](https://github.com/patrick-verbs/portfolio) and 
 
 ## <a name="Technologies"></a>Technologies Used
+###### _[Portfolio](https://github.com/patrick-verbs/portfolio) > [About](#About) > Technologies Used_
 - _OS:_ __Windows 10__
 - _Services:_ __GitHub__ | __Microsoft OneDrive__ (redundant backup) | __[DaFont.com](https://www.dafont.com/)__
 - _Assets:_
@@ -54,8 +57,10 @@ If you have a GitHub account, you can Clone or Fork this repository either by:
 - _Music to keep me relatively sane:_ ["Japanese Winter Ambient with Flute Sounds Background"](https://www.youtube.com/watch?v=1npZVIPwi1w)
 
 ## <a name="Bugs"></a>Known Bugs
+###### _[Portfolio](https://github.com/patrick-verbs/portfolio) > [About](#About) > Known Bugs_
 
 # <a name="License"></a>License
+###### _[Portfolio](https://github.com/patrick-verbs/portfolio) > License_
 <details>
 <summary><a href="https://opensource.org/licenses/MIT"><strong>MIT</strong></a></summary>
 <pre>
@@ -86,11 +91,17 @@ SOFTWARE.
 Copyright © 2021 Patrick Lee
 
 # <a name="Contact"></a>Contact
+###### _[Portfolio](https://github.com/patrick-verbs/portfolio) > Contact_
 #### Patrick Lee | patricklee1138@live.com
 
 # <a name="History"></a>History
+###### _[Portfolio](https://github.com/patrick-verbs/portfolio) > History_
+
 ## <a name="Progress"></a>Progress on Assigned Project
+###### _[Portfolio](https://github.com/patrick-verbs/portfolio) > [History](#History) > Progress on Assigned Project_
+
 ### <a name="Strategy"></a>Strategy
+###### _[Portfolio](https://github.com/patrick-verbs/portfolio) > [History](#History) > [Progress on Assigned Project](#Progress) > Strategy_
 - [x] Establish repo & file structure
 - [x] Establish and continually update README file to plan, track, execute, and showcase progress on this project
 - [x] HTML code established with correct use of headers
@@ -129,6 +140,7 @@ Copyright © 2021 Patrick Lee
 - [x] If necessary, use placeholder content while prioritizing __functional__ objectives
 
 ### <a name="Triage"></a>Triage
+###### _[Portfolio](https://github.com/patrick-verbs/portfolio) > [History](#History) > [Progress on Assigned Project](#Progress) > Triage_
   - Priority 1: Fulfilling all functional objectives to demonstrate programming proficiency
   - Priority 2: Fulfilling all thematic objectives (i.e., complete content) to demonstrate ability to deliver a product to a client
   - Priority 3: Fulfilling all aesthetic objectives (i.e., good design) to demonstrate reliable adherence to a client's vision
@@ -136,6 +148,7 @@ Copyright © 2021 Patrick Lee
   - Priority 5: Any additional functional goals beyond requirements, such as incorporation of JS features
 
 ### <a name="Project"></a>Project Requirements
+###### _[Portfolio](https://github.com/patrick-verbs/portfolio) > [History](#History) > [Progress on Assigned Project](#Progress) > Project Requirements_
 - [ ] Create a portfolio webpage using HTML and CSS, which will later act as the landing page for my programming portfolio
 - [ ] Include:
   - [x] my name
@@ -149,6 +162,7 @@ Copyright © 2021 Patrick Lee
 
 
 ### <a name="Objectives"></a>Underlying Objectives
+###### _[Portfolio](https://github.com/patrick-verbs/portfolio) > [History](#History) > [Progress on Assigned Project](#Progress) > Underlying Objectives_
 - [ ] The following HTML tags are all used:
   - [x] p
   - [x] h
@@ -176,7 +190,7 @@ Copyright © 2021 Patrick Lee
   - [ ] program setup instructions
   - [x] link to site on GitHub Pages
   - [x] copyright and license information
-- [ ] Site is successfully deployed to GitHub pages
+- [x] Site is successfully deployed to GitHub pages
 - [ ] Project is in a polished, portfolio-quality state
 - [x] Project demonstrates an understanding of this week's concepts
 - [x] Can discuss all code with an instructor using the correct terminology
