@@ -106,7 +106,7 @@ MY STYLING
 *********/
 
 * {
-  /* find code to remove hyperlink styling */
+  text-decoration: none;
 }
 
 body {
