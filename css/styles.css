@@ -137,7 +137,7 @@ header nav ul {
 
 header nav ul li {
   display: inline-block;
-  float: left;/* Unnecessary with "inline-block," but gets rid of the gap between links... */
+  float: left;/* Gives error in VS Code but has desired behavior. Conflicts with "inline-block," but gets rid of the gap between links... */
   list-style: none;/* Get rid of the ugly formatting from lists. */
   padding: 0 10px;
 }
@@ -149,5 +149,24 @@ header nav ul li a {
 }
 
 header .header-samples {
-  display: none;/* Hides this link on the mobile version (low-res).
+  display: none;/* Hides this link on the mobile version (low-res).*/
+}
+
+/* INDEX */
+
+.index-banner {
+  width: 100%;
+  height: calc(100vh - 100px);/* "100px" is the specified height of the header, above */
+  background-image: url('../img/pat_icon1-2[180].png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.index-banner h2 {
+  color: #f2f2f2;
+  font-family: 'Josefin Sans';
+  font-size: 56px;
+  text-align: left;
+  font-weight: 500;
 }
