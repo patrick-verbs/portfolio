@@ -125,4 +125,12 @@ header .header-me {
   font-size: 24px;
   font-weight: 900;
   text-transform: uppercase;
+  display: block;
+  margin: 0 auto;
+  text-align: left;
+  padding: 20px 40px 20px 10px;
+}
+
+header nav ul {
+  stuff;
 }
