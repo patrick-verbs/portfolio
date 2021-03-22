@@ -208,7 +208,7 @@ footer {
 footer ol {
   width: fit-content;
   float: left;
-  padding-left: 20px;
+  padding-left: 10px;
 }
 
 footer ol li {
@@ -218,8 +218,8 @@ footer ol li {
 
 footer ol li a {
   font-family: 'Josefin Sans';
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 20px;
+  line-height: 42px;
   color:#f2f2f2;
 }
 
@@ -228,11 +228,12 @@ footer ol li a {
 }
 
 .footer-social {
-  width: 64px;
+  width: 50px;
   float: right;
 }
 
 .footer-social img {
   width: 100%;
   margin-bottom: 10px;
+  padding: 4px 0;
 }
