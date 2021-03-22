@@ -199,14 +199,40 @@ header .header-samples {
 
 footer {
   width: calc(100% - 80px);/* 100% - (40px from left padding) - (40px from right padding)*/
-  padding: 40px 40;
+  padding: 40px 40px;
   margin-top: 20px;
   background-color: #111;
+  overflow: hidden;
 }
 
 footer ol {
-  width: calc(100% - 80px);/* 100% - (40px from left padding) - (40px from right padding)*/
-  padding: 40px 40;
-  margin-top: 20px;
-  background-color: #111;
+  width: fit-content;
+  float: left;
+  padding-left: 20px;
+}
+
+footer ol li {
+  display: block;
+  list-style: none;
+}
+
+footer ol li a {
+  font-family: 'Josefin Sans';
+  font-size: 18px;
+  line-height: 24px;
+  color:#f2f2f2;
+}
+
+.footer-links-projects {
+  display: none;
+}
+
+.footer-social {
+  width: 64px;
+  float: right;
+}
+
+.footer-social img {
+  width: 100%;
+  margin-bottom: 10px;
 }
