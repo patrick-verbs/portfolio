@@ -201,6 +201,35 @@ span.highlight {
   -webkit-text-stroke: 2px 0080aa;
 }
 
+section.index-contact {
+  width: calc(100% - 80px);/* 100% - (40px from left padding) - (40px from right padding)*/
+  padding: 40px 40px;
+  margin-top: 20px;
+  background-color: #802458;
+  overflow: hidden;
+}
+
+section.index-contact ul {
+  float: right;
+  margin: 0;
+  border: 8px double #ee488f;
+  padding: 20px;
+  width: fit-content;
+  padding-left: 10px;
+  font-family: 'Josefin Sans';
+  font-size: 20px;
+  line-height: 25px;
+  color:#ee488f;
+  font-variant: small-caps;
+}
+
+section.index-contact ul li {
+  display: block;
+  list-style: none;
+  font-variant: normal;
+  text-align: right;
+}
+
 /* FOOTER */
 
 footer {
