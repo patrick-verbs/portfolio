@@ -119,6 +119,7 @@ header {
   background-color: #111;
   width: 100%;
   height: 100px;
+  position: fixed;
 }
 
 header .header-me {
@@ -155,7 +156,11 @@ header .header-samples {
   display: none;/* Hides this link on the mobile version (low-res).*/
 }
 
-/* INDEX */
+/* INDEX - BANNER */
+
+main {
+  padding-top: 100px;
+}
 
 .index-banner {
   width: 100%;
@@ -201,24 +206,88 @@ span.highlight {
   -webkit-text-stroke: 2px 0080aa;
 }
 
-section.index-contact {
+/* INDEX - PROJECTS */
+
+section.index-projects {
   width: calc(100% - 80px);/* 100% - (40px from left padding) - (40px from right padding)*/
+  height: calc(100vh - 100px);
   padding: 40px 40px;
-  margin-top: 20px;
   background-color: #802458;
   overflow: hidden;
+  display: table;
+}
+
+section.index-projects ul {
+  float: right;
+  margin: 0;
+  border: 8px double #ee488f;
+  padding: 40px;
+  width: fit-content;
+  font-family: 'Josefin Sans';
+  font-size: 20px;
+  line-height: 30px;
+  color:#ee488f;
+  font-variant: small-caps;
+}
+
+section.index-projects ul li {
+  display: block;
+  list-style: none;
+  font-variant: normal;
+  text-align: right;
+}
+
+/* INDEX - ABOUT */
+
+section.index-about {
+  width: calc(100% - 80px);/* 100% - (40px from left padding) - (40px from right padding)*/
+  height: calc(100vh - 100px);
+  padding: 40px 40px;
+  background-color: #4b692f;
+  overflow: hidden;
+  display: table;
+}
+
+section.index-about ul {
+  float: right;
+  margin: 0;
+  border: 8px double #959447;
+  padding: 40px;
+  width: fit-content;
+  font-family: 'Josefin Sans';
+  font-size: 20px;
+  line-height: 30px;
+  color:#ee488f;
+  font-variant: small-caps;
+}
+
+section.index-about ul li {
+  display: block;
+  list-style: none;
+  font-variant: normal;
+  text-align: right;
+}
+
+/* INDEX - CONTACT */
+
+section.index-contact {
+  width: calc(100% - 80px);/* 100% - (40px from left padding) - (40px from right padding)*/
+  height: calc(100vh - 100px);
+  padding: 40px 40px;
+  background-color: #802458;
+  overflow: hidden;
+  display: table;
 }
 
 section.index-contact ul {
   float: right;
   margin: 0;
   border: 8px double #ee488f;
-  padding: 20px;
+  padding: 40px;
   width: fit-content;
-  padding-left: 10px;
   font-family: 'Josefin Sans';
   font-size: 20px;
-  line-height: 25px;
+  line-height: 30px;
   color:#ee488f;
   font-variant: small-caps;
 }
@@ -235,9 +304,9 @@ section.index-contact ul li {
 footer {
   width: calc(100% - 80px);/* 100% - (40px from left padding) - (40px from right padding)*/
   padding: 40px 40px;
-  margin-top: 20px;
   background-color: #111;
   overflow: hidden;
+  display: table;
 }
 
 footer ol {
