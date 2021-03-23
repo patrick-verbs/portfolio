@@ -325,6 +325,12 @@ section.index-contact ul li {
   text-align: right;
 }
 
+section.index-contact ul li a {
+  color:#f2f2f2;
+  background-color: #ee488f77;
+  padding: 4px;
+}
+
 /* FOOTER */
 
 footer {
