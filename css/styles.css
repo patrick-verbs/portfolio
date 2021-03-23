@@ -192,7 +192,13 @@ header .header-samples {
   padding-left: 10px;
   font-weight: 300;
   font-style: italic;
-  text-shadow: 4px 4px 16px #000;/* [?] [?] [8px blur] [color] */
+  text-shadow: 2px 2px 2px #000;
+}
+
+span.highlight {
+  font-weight: 800;
+  font-style: normal;
+  -webkit-text-stroke: 2px 0080aa;
 }
 
 /* FOOTER */
