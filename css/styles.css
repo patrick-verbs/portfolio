@@ -228,24 +228,40 @@ section.index-projects {
   display: table;
 }
 
-section.index-projects ul {
+section.index-projects div {
   float: right;
   margin: 0;
-  border: 8px double #6d464f;
   padding: 40px;
+  width: fit-content;
+  text-align: left;
+}
+
+section.index-projects h3 {
+  margin: 0;
   width: fit-content;
   font-family: 'Josefin Sans';
   font-size: 20px;
   line-height: 30px;
-  color: #6d464f;
-  font-variant: small-caps;
+  color: #805660;
 }
 
-section.index-projects ul li {
+section.index-projects p {
   display: block;
-  list-style: none;
   font-variant: normal;
-  text-align: right;
+  font-family: 'Cormorant Garamond';
+  font-size: 20px;
+  line-height: 25px;
+  color: #805660;
+}
+
+section.index-projects p a {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 900;
+  color: #f2f2f2;
+  background-color: #805660;
+  padding: 0 4px 0 4px;
+  ;
 }
 
 /* INDEX - ABOUT */
@@ -260,10 +276,9 @@ section.index-about {
 }
 
 section.index-about article {
-  float: right;
+  float: left;
   margin: 0;
-  border: 8px double #959447;
-  padding: 40px;
+\  padding: 40px;
   width: fit-content;
   font-family: 'Josefin Sans';
   font-size: 20px;
@@ -276,7 +291,7 @@ section.index-about article p {
   display: block;
   list-style: none;
   font-variant: normal;
-  text-align: right;
+  text-align: left;
 }
 
 /* INDEX - CONTACT */
