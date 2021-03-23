@@ -111,8 +111,19 @@ MY STYLING
   text-decoration: none;
 }
 
+html {
+  scroll-behavior: smooth;/* For same-page anchor links. */
+}
+
 body {
   background-color: #fff;
+}
+
+.anchor {
+  display: block;
+  height: 100px;/* Same as the header, below. */
+  margin-top: -100px;/* Same again... */
+  visibility: hidden;
 }
 
 header {
@@ -212,7 +223,7 @@ section.index-projects {
   width: calc(100% - 80px);/* 100% - (40px from left padding) - (40px from right padding)*/
   height: calc(100vh - 100px);
   padding: 40px 40px;
-  background-color: #802458;
+  background-color: #493038;
   overflow: hidden;
   display: table;
 }
@@ -220,13 +231,13 @@ section.index-projects {
 section.index-projects ul {
   float: right;
   margin: 0;
-  border: 8px double #ee488f;
+  border: 8px double #6d464f;
   padding: 40px;
   width: fit-content;
   font-family: 'Josefin Sans';
   font-size: 20px;
   line-height: 30px;
-  color:#ee488f;
+  color: #6d464f;
   font-variant: small-caps;
 }
 
@@ -248,7 +259,7 @@ section.index-about {
   display: table;
 }
 
-section.index-about ul {
+section.index-about article {
   float: right;
   margin: 0;
   border: 8px double #959447;
@@ -257,11 +268,11 @@ section.index-about ul {
   font-family: 'Josefin Sans';
   font-size: 20px;
   line-height: 30px;
-  color:#ee488f;
+  color:#959447;
   font-variant: small-caps;
 }
 
-section.index-about ul li {
+section.index-about article p {
   display: block;
   list-style: none;
   font-variant: normal;
