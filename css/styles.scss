@@ -5,6 +5,7 @@ Last Updated: 2010-09-17
 Author: Richard Clark - http://richclarkdesign.com 
 Twitter: @rich_clark
 */
+
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 abbr, address, cite, code,
@@ -14,103 +15,104 @@ b, i,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figcaption, figure,
+article, aside, canvas, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section, summary,
 time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: 0;
-  font-size: 100%;
-  vertical-align: baseline;
-  background: transparent;
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
 }
 
 body {
-  line-height: 1;
+    line-height:1;
 }
 
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-  display: block;
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
 }
 
 nav ul {
-  list-style: none;
+    list-style:none;
 }
 
 blockquote, q {
-  quotes: none;
+    quotes:none;
 }
 
 blockquote:before, blockquote:after,
 q:before, q:after {
-  content: '';
-  content: none;
+    content:'';
+    content:none;
 }
 
 a {
-  margin: 0;
-  padding: 0;
-  font-size: 100%;
-  vertical-align: baseline;
-  background: transparent;
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
 }
 
 /* change colours to suit your needs */
 ins {
-  background-color: #ff9;
-  color: #000;
-  text-decoration: none;
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
 }
 
 /* change colours to suit your needs */
 mark {
-  background-color: #ff9;
-  color: #000;
-  font-style: italic;
-  font-weight: bold;
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
 }
 
 del {
-  text-decoration: line-through;
+    text-decoration: line-through;
 }
 
 abbr[title], dfn[title] {
-  border-bottom: 1px dotted;
-  cursor: help;
+    border-bottom:1px dotted;
+    cursor:help;
 }
 
 table {
-  border-collapse: collapse;
-  border-spacing: 0;
+    border-collapse:collapse;
+    border-spacing:0;
 }
 
 /* change border colour to suit your needs */
 hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 1px solid #cccccc;
-  margin: 1em 0;
-  padding: 0;
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
 }
 
 input, select {
-  vertical-align: middle;
+    vertical-align:middle;
 }
 
 /*********
 MY STYLING
 *********/
+
 /* HEADER */
+
 * {
   text-decoration: none;
 }
 
 html {
-  scroll-behavior: smooth;
-  /* For same-page anchor links. */
+  scroll-behavior: smooth;/* For same-page anchor links. */
 }
 
 body {
@@ -119,10 +121,8 @@ body {
 
 .anchor {
   display: block;
-  height: 100px;
-  /* Same as the header, below. */
-  margin-top: -100px;
-  /* Same again... */
+  height: 100px;/* Same as the header, below. */
+  margin-top: -100px;/* Same again... */
   visibility: hidden;
 }
 
@@ -131,64 +131,52 @@ header {
   width: 100%;
   height: 100px;
   position: fixed;
-  bottom: calc(100vh - 100px);
-}
-
-header .header-me {
-  color: #f2f2f2;
-  font-family: 'Josefin Sans';
-  font-size: 24px;
-  font-weight: 900;
-  text-transform: uppercase;
-  display: block;
-  margin: 0 auto;
-  text-align: left;
-  padding: 20px 40px 20px 10px;
-}
-
-header .header-samples {
-  display: none;
-  /* Hides this link on the mobile version (low-res).*/
+  .header-me {
+    color: #f2f2f2;
+    font-family: 'Josefin Sans';
+    font-size: 24px;
+    font-weight: 900;
+    text-transform: uppercase;
+    display: block;
+    margin: 0 auto;
+    text-align: left;
+    padding: 20px 40px 20px 10px;
+  }
+  .header-samples {
+    display: none;/* Hides this link on the mobile version (low-res).*/
+  }
 }
 
 header nav ul {
   margin: auto 0 0;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  /* I'm not sure if this is necessary if this isn't centered... */
-}
-
-header nav ul li {
-  display: inline-block;
-  float: left;
-  /* Gives error in VS Code but has desired behavior. Conflicts with "inline-block," but gets rid of the gap between links... */
-  list-style: none;
-  /* Get rid of the ugly formatting from lists. */
-  padding: 0 10px;
-}
-
-header nav ul li a {
-  color: #f2f2f2;
-  font-family: 'Josefin Sans';
-  font-size: 16px;
+  width: fit-content;/* I'm not sure if this is necessary if this isn't centered... */
+  li {
+    display: inline-block;
+    float: left;/* Gives error in VS Code but has desired behavior. Conflicts with "inline-block," but gets rid of the gap between links... */
+    list-style: none;/* Get rid of the ugly formatting from lists. */
+    padding: 0 10px;
+    a {
+      color: #f2f2f2;
+      font-family: 'Josefin Sans';
+      font-size: 16px;
+    }
+  }
 }
 
 /* INDEX - BANNER */
+
 main {
   padding-top: 100px;
 }
 
 .index-banner {
   width: 100%;
-  height: calc(100vh - 100px);
-  /* "100px" is the specified height of the header, above */
-  background-image: url("../img/pat_icon1-2[180].png");
+  height: calc(100vh - 100px);/* "100px" is the specified height of the header, above */
+  background-image: url('../img/pat_icon1-2[180].png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  display: table;
-  /* Sets up the "table-cell" call in .vertical-banner, below */
+  display: table;/* Sets up the "table-cell" call in .vertical-banner, below */
 }
 
 .vertical-center {
@@ -196,17 +184,18 @@ main {
   vertical-align: middle;
 }
 
-.index-banner h2 {
-  color: #f2f2f2;
-  font-family: 'Josefin Sans';
-  font-size: 56px;
-  text-transform: lowercase;
-  text-align: left;
-  padding-left: 10px;
-  line-height: 64px;
-  font-weight: 500;
-  text-shadow: 1px 3px 4px #000;
-  /* [horizontal] [vertical] [blur] [color] */
+.index-banner {
+  h2 {
+    color: #f2f2f2;
+    font-family: 'Josefin Sans';
+    font-size: 56px;
+    text-transform: lowercase;
+    text-align: left;
+    padding-left: 10px;
+    line-height: 64px;
+    font-weight: 500;
+    text-shadow: 1px 3px 4px #000;/* [horizontal] [vertical] [blur] [color] */
+  }
 }
 
 .index-banner h1 {
@@ -227,9 +216,9 @@ span.highlight {
 }
 
 /* INDEX - PROJECTS */
+
 section.index-projects {
-  width: calc(100% - 80px);
-  /* 100% - (40px from left padding) - (40px from right padding)*/
+  width: calc(100% - 80px);/* 100% - (40px from left padding) - (40px from right padding)*/
   height: calc(100vh - 100px);
   padding: 40px 40px;
   background-color: #493038;
@@ -241,16 +230,12 @@ section.index-projects div {
   float: right;
   margin: 0;
   padding: 40px;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
   width: fit-content;
   text-align: left;
 }
 
 section.index-projects h3 {
   margin: 0;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
   width: fit-content;
   font-family: 'Josefin Sans';
   font-size: 20px;
@@ -279,9 +264,9 @@ section.index-projects p a {
 }
 
 /* INDEX - ABOUT */
+
 section.index-about {
-  width: calc(100% - 80px);
-  /* 100% - (40px from left padding) - (40px from right padding)*/
+  width: calc(100% - 80px);/* 100% - (40px from left padding) - (40px from right padding)*/
   height: calc(100vh - 100px);
   padding: 40px 40px;
   background-color: #4b692f;
@@ -293,13 +278,11 @@ section.index-about article {
   float: left;
   margin: 0;
   padding: 40px;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
   width: fit-content;
   font-family: 'Josefin Sans';
   font-size: 20px;
   line-height: 30px;
-  color: #959447;
+  color:#959447;
   font-variant: small-caps;
 }
 
@@ -311,9 +294,9 @@ section.index-about article p {
 }
 
 /* INDEX - CONTACT */
+
 section.index-contact {
-  width: calc(100% - 80px);
-  /* 100% - (40px from left padding) - (40px from right padding)*/
+  width: calc(100% - 80px);/* 100% - (40px from left padding) - (40px from right padding)*/
   height: calc(100vh - 100px);
   padding: 40px 40px;
   background-color: #802458;
@@ -326,13 +309,11 @@ section.index-contact ul {
   margin: 0;
   border: 8px double #ee488f;
   padding: 40px;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
   width: fit-content;
   font-family: 'Josefin Sans';
   font-size: 20px;
   line-height: 30px;
-  color: #ee488f;
+  color:#ee488f;
   font-variant: small-caps;
 }
 
@@ -345,14 +326,14 @@ section.index-contact ul li {
 
 section.index-contact ul li a {
   background-color: #f2f2f210;
-  color: #ee488f;
+  color:#ee488f;
   padding: 4px;
 }
 
 /* FOOTER */
+
 footer {
-  width: calc(100% - 80px);
-  /* 100% - (40px from left padding) - (40px from right padding)*/
+  width: calc(100% - 80px);/* 100% - (40px from left padding) - (40px from right padding)*/
   padding: 40px 40px;
   background-color: #111;
   overflow: hidden;
@@ -360,8 +341,6 @@ footer {
 }
 
 footer ol {
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
   width: fit-content;
   float: left;
   padding-left: 10px;
@@ -376,7 +355,7 @@ footer ol li a {
   font-family: 'Josefin Sans';
   font-size: 20px;
   line-height: 42px;
-  color: #f2f2f2;
+  color:#f2f2f2;
 }
 
 .footer-links-projects {
@@ -393,4 +372,3 @@ footer ol li a {
   margin-bottom: 10px;
   padding: 4px 0;
 }
-/*# sourceMappingURL=styles.css.map */
