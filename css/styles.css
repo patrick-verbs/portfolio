@@ -8,7 +8,7 @@ MY STYLING
 
 html {
   scroll-behavior: smooth;
-  /* For same-page anchor links. */
+  /* For same-page anchor links */
 }
 
 body {
@@ -18,7 +18,7 @@ body {
 .anchor {
   display: block;
   height: 100px;
-  /* Same as the header, below. */
+  /* Same as the header, below */
   margin-top: -100px;
   /* Same again... */
   visibility: hidden;
@@ -27,7 +27,7 @@ body {
 header {
   background-color: #111;
   width: 100%;
-  height: 100px;
+  height: 15vh;
   position: fixed;
 }
 
@@ -45,7 +45,7 @@ header .header-me {
 
 header .header-samples {
   display: none;
-  /* Hides this link on the mobile version (low-res).*/
+  /* Hides this link on the mobile version (low-res) */
 }
 
 header nav ul {
@@ -61,7 +61,7 @@ header nav ul li {
   float: left;
   /* Gives error in VS Code but has desired behavior. Conflicts with "inline-block," but gets rid of the gap between links... */
   list-style: none;
-  /* Get rid of the ugly formatting from lists. */
+  /* Get rid of the ugly formatting from lists */
   padding: 0 10px;
 }
 
@@ -78,7 +78,7 @@ main {
 
 .index-banner {
   width: 100%;
-  height: calc(100vh - 100px);
+  height: calc(100vh - 15vh);
   /* "100px" is the specified height of the header, above */
   background-image: url("../img/pat_icon1-2[180].png");
   background-repeat: no-repeat;
@@ -126,8 +126,8 @@ span.highlight {
 /* INDEX - PROJECTS */
 section.index-projects {
   width: calc(100% - 80px);
-  /* 100% - (40px from left padding) - (40px from right padding)*/
-  height: calc(100vh - 100px);
+  /* 100% - (40px from left padding) - (40px from right padding) */
+  height: calc(100vh - 15vh);
   padding: 40px 40px;
   background-color: #493038;
   overflow: hidden;
@@ -178,8 +178,8 @@ section.index-projects p a {
 /* INDEX - ABOUT */
 section.index-about {
   width: calc(100% - 80px);
-  /* 100% - (40px from left padding) - (40px from right padding)*/
-  height: calc(100vh - 100px);
+  /* 100% - (40px from left padding) - (40px from right padding) */
+  height: calc(100vh - 15vh);
   padding: 40px 40px;
   background-color: #4b692f;
   overflow: hidden;
@@ -210,8 +210,8 @@ section.index-about article p {
 /* INDEX - CONTACT */
 section.index-contact {
   width: calc(100% - 80px);
-  /* 100% - (40px from left padding) - (40px from right padding)*/
-  height: calc(100vh - 100px);
+  /* 100% - (40px from left padding) - (40px from right padding) */
+  height: calc(100vh - 15vh);
   padding: 40px 40px;
   background-color: #802458;
   overflow: hidden;
@@ -249,7 +249,7 @@ section.index-contact ul li a {
 /* FOOTER */
 footer {
   width: calc(100% - 80px);
-  /* 100% - (40px from left padding) - (40px from right padding)*/
+  /* 100% - (40px from left padding) - (40px from right padding) */
   padding: 40px 40px;
   background-color: #111;
   overflow: hidden;
