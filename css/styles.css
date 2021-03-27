@@ -15,7 +15,7 @@ html {
 body {
   min-height: 100vh;
   min-height: -webkit-fill-available;
-  background-color: #fff;
+  background-color: #111;
 }
 
 .anchor {
