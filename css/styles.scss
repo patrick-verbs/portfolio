@@ -10,9 +10,12 @@ MY STYLING
 
 html {
   scroll-behavior: smooth;/* For same-page anchor links */
+  height: -webkit-fill-available;
 }
 
 body {
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
   background-color: #fff;
 }
 
@@ -69,7 +72,7 @@ main {
 
 .index-banner {
   width: 100%;
-  height: calc(100vh - 15vh);/* "100px" is the specified height of the header, above */
+  height: calc(100vh - 100px);/* "100px" is the specified height of the header, above */
   background-image: url('../img/pat_icon1-2[180].png');
   background-repeat: no-repeat;
   background-position: center;
@@ -116,9 +119,9 @@ span.highlight {
 /* INDEX - PROJECTS */
 
 section.index-projects {
-  width: calc(100% - 80px);/* 100% - (40px from left padding) - (40px from right padding) */
-  height: calc(100vh - 15vh);
-  padding: 40px 40px;
+  width: calc(100% - 40px);/* 100% - (px from left padding) - (px from right padding) */
+  height: calc(100vh - 100px);
+  padding: 40px 20px;
   background-color: #493038;
   overflow: hidden;
   display: table;
@@ -127,7 +130,7 @@ section.index-projects {
 section.index-projects div {
   float: right;
   margin: 0;
-  padding: 40px;
+  padding: 20px;
   width: fit-content;
   text-align: left;
 }
@@ -150,6 +153,7 @@ section.index-projects p {
   line-height: 25px;
   color: #805660;
   width: 25vw;
+  min-width: 240px;
 }
 
 section.index-projects p a {
@@ -164,9 +168,9 @@ section.index-projects p a {
 /* INDEX - ABOUT */
 
 section.index-about {
-  width: calc(100% - 80px);/* 100% - (40px from left padding) - (40px from right padding) */
-  height: calc(100vh - 15vh);
-  padding: 40px 40px;
+  width: calc(100% - 40px);/* 100% - (px from left padding) - (px from right padding) */
+  height: calc(100vh - 100px);
+  padding: 40px 20px;
   background-color: #4b692f;
   overflow: hidden;
   display: table;
@@ -175,7 +179,7 @@ section.index-about {
 section.index-about article {
   float: left;
   margin: 0;
-  padding: 40px;
+  padding: 20px;
   width: fit-content;
   font-family: 'Josefin Sans';
   font-size: 20px;
@@ -185,7 +189,10 @@ section.index-about article {
 }
 
 section.index-about article p {
+  width: 25vw;
+  min-width: 240px;
   display: block;
+  padding: 10px 0;
   list-style: none;
   font-variant: normal;
   text-align: left;
@@ -194,19 +201,26 @@ section.index-about article p {
 /* INDEX - CONTACT */
 
 section.index-contact {
-  width: calc(100% - 80px);/* 100% - (40px from left padding) - (40px from right padding) */
-  height: calc(100vh - 15vh);
-  padding: 40px 40px;
+  width: calc(100% - 32px);/* 100% - (px from left padding) - (px from right padding) */
+  height: calc(100vh - 100px);
+  padding: 40px 16px;
   background-color: #802458;
   overflow: hidden;
   display: table;
+}
+
+section.index-contact div {
+  margin: 0;
+  padding: 4px;
+  width: fit-content;
+  text-align: left;
 }
 
 section.index-contact ul {
   float: right;
   margin: 0;
   border: 8px double #ee488f;
-  padding: 40px;
+  padding: 16px;
   width: fit-content;
   font-family: 'Josefin Sans';
   font-size: 20px;
@@ -231,7 +245,7 @@ section.index-contact ul li a {
 /* FOOTER */
 
 footer {
-  width: calc(100% - 80px);/* 100% - (40px from left padding) - (40px from right padding) */
+  width: calc(100% - 80px);/* 100% - (px from left padding) - (px from right padding) */
   padding: 40px 40px;
   background-color: #111;
   overflow: hidden;
