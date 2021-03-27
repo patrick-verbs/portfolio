@@ -126,15 +126,14 @@ body {
   visibility: hidden;
 }
 
-header {
+div.makeshift-header {
   background-color: #111;
   width: 100%;
   height: 100px;
   position: fixed;
-  bottom: calc(100vh - 100px);
 }
 
-header .header-me {
+div.makeshift-header .header-me {
   color: #f2f2f2;
   font-family: 'Josefin Sans';
   font-size: 24px;
@@ -146,12 +145,12 @@ header .header-me {
   padding: 20px 40px 20px 10px;
 }
 
-header .header-samples {
+div.makeshift-header .header-samples {
   display: none;
   /* Hides this link on the mobile version (low-res).*/
 }
 
-header nav ul {
+div.makeshift-header nav ul {
   margin: auto 0 0;
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -159,7 +158,7 @@ header nav ul {
   /* I'm not sure if this is necessary if this isn't centered... */
 }
 
-header nav ul li {
+div.makeshift-header nav ul li {
   display: inline-block;
   float: left;
   /* Gives error in VS Code but has desired behavior. Conflicts with "inline-block," but gets rid of the gap between links... */
@@ -168,7 +167,7 @@ header nav ul li {
   padding: 0 10px;
 }
 
-header nav ul li a {
+div.makeshift-header nav ul li a {
   color: #f2f2f2;
   font-family: 'Josefin Sans';
   font-size: 16px;

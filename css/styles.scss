@@ -126,7 +126,7 @@ body {
   visibility: hidden;
 }
 
-header {
+div.makeshift-header {
   background-color: #111;
   width: 100%;
   height: 100px;
@@ -147,7 +147,7 @@ header {
   }
 }
 
-header nav ul {
+div.makeshift-header nav ul {
   margin: auto 0 0;
   width: fit-content;/* I'm not sure if this is necessary if this isn't centered... */
   li {

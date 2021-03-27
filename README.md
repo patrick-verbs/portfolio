@@ -58,6 +58,9 @@ If you have a GitHub account, you can Clone or Fork this repository either by:
 
 ## <a name="Bugs"></a>Known Bugs
 ###### _[Portfolio](https://github.com/patrick-verbs/portfolio) > [About](#About) > Known Bugs_
+- Header doesn't stay fixed on mobile browsers:
+  - Firefox Android: scrolls to base of top row of letters
+  - Chrome Android: scrolls to negative space between top row & 2nd row
 
 # <a name="License"></a>License
 ###### _[Portfolio](https://github.com/patrick-verbs/portfolio) > License_
